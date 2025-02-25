@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e81a3e5-8ea4-4e39-9faf-f19fc98f3c6e" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/app/components/signin/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/signup/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/signin/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/signup/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/actions/signin.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/actions/signup.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="8e81a3e5-8ea4-4e39-9faf-f19fc98f3c6e" name="Changes" comment="MK-1 - create sign in and sign up form">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/actions/signin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/actions/signin.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/actions/signup.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/actions/signup.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +22,34 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;azvart&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/azvart/mk.git&quot;,
+    &quot;accountId&quot;: &quot;fad26ebd-5e07-48b3-b987-ff58a3d8c4d2&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;azvart&quot;,
+    &quot;repository&quot;: &quot;mk&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2tSZHez0tfglQ4WVcldsRhjPSbJ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -41,6 +58,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "last_opened_file_path": "/Users/vladgasanov/Desktop/petprojects/mk",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,7 +86,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685700101562</updated>
-      <workItem from="1740347350461" duration="3081000" />
+      <workItem from="1740347350461" duration="3760000" />
+      <workItem from="1740387310377" duration="17000" />
+      <workItem from="1740519241877" duration="2351000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -77,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740347791085</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="MK-1 - create sign in and sign up form">
+      <option name="closed" value="true" />
+      <created>1740350486589</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740350486589</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,6 +114,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="MK-1 - create sign in and sign up form" />
+    <option name="LAST_COMMIT_MESSAGE" value="MK-1 - create sign in and sign up form" />
   </component>
 </project>
