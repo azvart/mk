@@ -1,0 +1,1 @@
+import type {LucideIcon} from "lucide-react";export type NavigationProps = {    title: string,    url: string,    icon?: LucideIcon    isActive?: boolean,    items?: {        title: string,        url: string,    }[]};export const NavigationData:NavigationProps[] = [    {        title: 'Accounts',        url: '/accounts',    }]

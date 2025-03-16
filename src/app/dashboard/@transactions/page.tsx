@@ -1,0 +1,1 @@
+import Link from "next/link";import BentoCard from "@/app/components/BentoCard";export default async function WidgetTransactions(){    return <Link href="/transactions"><BentoCard content="Transactions" /></Link>}

@@ -8,6 +8,9 @@ export default function Home() {
       <Link href="/signin">
         Go to Login
       </Link>
+        <Link href='/dashboard'>
+            Go to Dashboard
+        </Link>
     </div>
   );
 }

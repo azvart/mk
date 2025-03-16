@@ -15,7 +15,10 @@ export async function signup(data:FormData){
             })
         })
         if(request.ok){
-            return request.json()
+            console.log(request.headers.getSetCookie())
+            const result = await request.json()
+            console.log(result)
+            return true;
         }else {
             throw new Error(request.statusText)
         }
