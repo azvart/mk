@@ -1,0 +1,1 @@
+import BentoCard from "@/app/components/BentoCard";export default async function DashboardPage() {    return <BentoCard content="Dashboard" />}

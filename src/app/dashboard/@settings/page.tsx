@@ -1,0 +1,1 @@
+import BentoCard from "@/app/components/BentoCard";import Link from "next/link";export default async function WidgetSettingsPage(){    return <Link href="/user/settings"><BentoCard content="Settings" /></Link>}
