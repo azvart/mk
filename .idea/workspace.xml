@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e81a3e5-8ea4-4e39-9faf-f19fc98f3c6e" name="Changes" comment="MK-2.2 - refactor typings">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/signin/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/signin/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/signup/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/signup/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/fetchFromClient.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/fetchFromClient.ts" afterDir="false" />
+    <list default="true" id="8e81a3e5-8ea4-4e39-9faf-f19fc98f3c6e" name="Changes" comment="MK-2.3 - refactor env">
+      <change beforePath="$PROJECT_DIR$/src/middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/middleware.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +104,7 @@
       <workItem from="1741799641759" duration="7903000" />
       <workItem from="1741851822392" duration="304000" />
       <workItem from="1741883247599" duration="5521000" />
-      <workItem from="1742118068761" duration="16155000" />
+      <workItem from="1742118068761" duration="16870000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -157,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742150339103</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="MK-2.3 - refactor env">
+      <option name="closed" value="true" />
+      <created>1742150859442</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1742150859442</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +175,7 @@
     <MESSAGE value="MK-2 - changes route path" />
     <MESSAGE value="MK-2.1 - refactor sign in and other pages" />
     <MESSAGE value="MK-2.2 - refactor typings" />
-    <option name="LAST_COMMIT_MESSAGE" value="MK-2.2 - refactor typings" />
+    <MESSAGE value="MK-2.3 - refactor env" />
+    <option name="LAST_COMMIT_MESSAGE" value="MK-2.3 - refactor env" />
   </component>
 </project>
